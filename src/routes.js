@@ -8,7 +8,7 @@ import Login from "./components/Login/login";
 import Task from "./components/Task/Task";
 import Profile from "./components/Task/profile/profile";
 import taskOne from "./components/Task/taskOne/taskOne";
-
+import taskTwo from "./components/Task/taskTwo/taskTwo";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 const history = createBrowserHistory();
 export default props => (
@@ -28,6 +28,7 @@ export default props => (
             <Route path={'/task'}  component={Task}/>
             <Route path={'/task/profile'} component={Profile}/>
             <Route path={'/task/one'} component={taskOne}/>
+            <Route path={'/task/taskRevised'} component={taskTwo}/>
 
 
         </div>

@@ -13,6 +13,7 @@ class Header extends Component{
                         <ul>
                             <li><Link to="/task/profile">Profile</Link></li>
                             <li><Link to="/task/one">Task one</Link></li>
+                            <li><Link to="/task/taskRevised">Task Revised</Link></li>
                         </ul>
                     </li>
                     <li><i className="fa fa-user fa-lg" aria-hidden="true"></i>

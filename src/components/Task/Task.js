@@ -3,6 +3,8 @@
  */
 import React ,{Component} from 'react'
 import Profile from './profile/profile'
+import taskOne from './taskOne/taskOne'
+import taskTwo from './taskTwo/taskTwo'
 import Header from '../Header/header'
 import {connect} from 'react-redux'
 import * as actions from '../../actions/authActions'
@@ -16,7 +18,6 @@ export class Task extends Component {
 
     }
     componentWillReceiveProps(newProps){
-        console.log(newProps,'ppppp');
         if(!newProps.isAuthenticated){
             this.props.history.push('/')
         }

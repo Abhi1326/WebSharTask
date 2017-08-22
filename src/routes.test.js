@@ -10,7 +10,7 @@ import Login from "./components/Login/login";
 import Task from "./components/Task/Task";
 import Profile from "./components/Task/profile/profile";
 import taskOne from "./components/Task/taskOne/taskOne";
-
+import taskTwo from "./components/Task/taskTwo/taskTwo";
 
 it('renders correct routes', () => {
     const wrapper = shallow(<Routes />);
@@ -23,6 +23,7 @@ it('renders correct routes', () => {
     expect(pathMap['/']).toBe(Login);
     expect(pathMap['/home']).toBe(Home);
     expect(pathMap['/task']).toBe(Task);
+    expect(pathMap['/task/taskRevised']).toBe(taskTwo);
     expect(pathMap['/task/taskOne']).toBe(taskOne);
     expect(pathMap['/task/profile']).toBe(Profile);
 });

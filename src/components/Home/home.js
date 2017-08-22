@@ -11,7 +11,7 @@ import './home.css'
 import {Link} from 'react-router-dom'
 import * as actions from '../../actions/authActions'
 import {connect} from 'react-redux'
-
+// import {BrowserRouter as Router} from 'react-router-dom'
 
 export class Home extends Component{
     constructor(props,context){
@@ -24,7 +24,7 @@ export class Home extends Component{
 
 
         this.openTaskone = this.openTaskone.bind(this);
-
+        this.openTasktwo = this.openTasktwo.bind(this);
 
     }
     static contextTypes = {
@@ -41,6 +41,10 @@ export class Home extends Component{
         this.context.router.history.push("/task/one");
     }
 
+    openTasktwo(){
+        this.context.router.history.push("/task/taskRevised");
+    }
+
 
 
     render(){
@@ -53,6 +57,7 @@ export class Home extends Component{
                         <p>Customer Service Software company based in London, United Kingdom</p>
                         <ul className="actions">
                             <li><input onClick={this.openTaskone} type="button" value="Task One"/></li>
+                            <li><input  onClick={this.openTasktwo} type="button" value="Task Two"/></li>
                         </ul>
                     </div>
                 </section>
