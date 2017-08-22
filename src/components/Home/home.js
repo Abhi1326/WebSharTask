@@ -57,7 +57,7 @@ export class Home extends Component{
                         <p>WebShar works with clients to understand their market, customers and their team. We help clients design a software strategy to set them on the right course to reach their current goals along with foresight into the future.</p>
                         <ul className="actions">
                             <li><input onClick={this.openTaskone} type="button" value="Task One"/></li>
-                            <li><input  onClick={this.openTasktwo} type="button" value="Task Two"/></li>
+                            <li><input  onClick={this.openTasktwo} type="button" value="Task Revised"/></li>
                         </ul>
                     </div>
                 </section>

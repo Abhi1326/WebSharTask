@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -55,6 +55,16 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#86#123#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="30" column="104" lean-forward="false" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,18 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Task/profile/profile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -147,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/Task/taskOne/taskOne.js" />
         <option value="$PROJECT_DIR$/src/routes.test.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
@@ -156,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/components/Task/taskTwo/taskTwo.js" />
         <option value="$PROJECT_DIR$/src/components/Task/taskTwo/taskTwo.css" />
         <option value="$PROJECT_DIR$/src/components/Home/home.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -276,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503408127107</updated>
-      <workItem from="1503408129727" duration="5945000" />
+      <workItem from="1503408129727" duration="6208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5945000" />
+    <option name="totallyTimeSpent" value="6208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -316,14 +314,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Task/profile/profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -421,6 +411,14 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#86#123#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="30" column="104" lean-forward="false" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
+          <folding />
         </state>
       </provider>
     </entry>
