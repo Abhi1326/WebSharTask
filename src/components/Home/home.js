@@ -53,8 +53,8 @@ export class Home extends Component{
                 <Header logout={this.props.logout}/>
                 <section id="banner">
                     <div className="inner">
-                        <h2>Kayako</h2>
-                        <p>Customer Service Software company based in London, United Kingdom</p>
+                        <h2>WebShar</h2>
+                        <p>WebShar works with clients to understand their market, customers and their team. We help clients design a software strategy to set them on the right course to reach their current goals along with foresight into the future.</p>
                         <ul className="actions">
                             <li><input onClick={this.openTaskone} type="button" value="Task One"/></li>
                             <li><input  onClick={this.openTasktwo} type="button" value="Task Two"/></li>
@@ -65,11 +65,9 @@ export class Home extends Component{
                 <section id="one" className="wrapper style1">
                     <div className="container">
                         <header className="major">
-                            <h2>Kayako</h2>
-                            <p>Kayako is a customer service software company based in London, United Kingdom.<br />
-                                Kayako builds customer service and help desk software which businesses use to talk to and support their customers.<br />
-                                Kayako was founded in 2001 in Jalandhar, India and has since relocated its headquarters in London, United Kingdom.<br />
-                                In addition to its London location, the company has offices in Gurgaon, India and Singapore<br /></p>
+                            <h2>Webshar</h2>
+                            <p>WebShar helps clients design and deliver operational plans, procedures and tools for running effective development teams<br /> that interface seamlessly with other organizations.<br /> We help you to collaborate with others in ways that were never before imaginable,<br /> which lets you break through boundaries to turn the impossible into the possible.<br />
+                                WebShar's expert team is available to develop and implement software solutions<br /> that meet your needs and solve your most challenging<br /> business and organizational issues.<br /></p>
                         </header>
                     </div>
                 </section>
