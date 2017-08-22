@@ -1,0 +1,15 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat', sans-serif;
+}
+.heading_h3{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.section_padding{
+  padding: 15px 100px;
+}
